@@ -1,0 +1,14 @@
+<ul class="accordion">
+<li class="accordion-item is-active">
+<h3 class="accordion-thumb">{{ product.metafields.my_fields.first_tab_title }}</h3>
+<p class="accordion-panel">{{ product.metafields.my_fields.first_tab_description }}</p>
+</li>
+<li class="accordion-item">
+<h3 class="accordion-thumb">{{ product.metafields.my_fields.second_tab_title }}</h3>
+<p class="accordion-panel">{{ product.metafields.my_fields.second_tab_description }}</p>
+</li>
+<li class="accordion-item">
+<h3 class="accordion-thumb">{{ product.metafields.my_fields.third_tab_title }}</h3>
+<p class="accordion-panel">{{ product.metafields.my_fields.third_tab_description }}</p>
+</li>
+</ul>
